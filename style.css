@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Acme", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+body{
+  /* background-color: #FFE7C1; */
+  background-color: #750E21;
+}
+
+.main {
+  background-image: url(./img-src/fund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  border: 5px solid #34fa45;
+  border-radius: 40px;
+}
+
+.footer{
+ 
+ border: 5px solid #E3651D;
+ border-radius: 40px;
+ background-color: #BED754;
+ height: 400px;
+ gap: 2;
+}
+
+.pic{
+  margin-left: 125px;
+  margin-top: 50px;
+  display: inline-block;
+  
+}
+
+.head{
+  display: inline-block;
+  color: #34fa45;
+  margin: 40px;
+  font-weight: 500;
+}
+.head2{
+  display: inline-block;
+  color: #34fa45;
+  margin-left: 495px;
+  margin-top: 40px;
+}
+
+.result {
+  display: inline-block;
+  color: #F2F7A1;
+  margin-left: 900px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.res{
+  padding: 5px;
+}
+
+form {
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+button{
+  background-color: #f76e19;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellowgreen;
+}
+
+.btn{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+#aInvested, #finalAmount {
+  font-size: 18px;
+  color: #F9F54B;
+}

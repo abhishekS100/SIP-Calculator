@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mutual Fund</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Rubik&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./img-src/favicon-16x16.png" type="image/x-icon">
+    <script src="sip.js"></script>
+
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="head"><h1>MUTUAL FUND</h1></div>
+      <div class="head2"><h2>Systematic Investment Plan (SIP)</h2></div>
+      
+      <div class="result">
+        <div class="res"><h5>AMOUNT INVESTED:</h5><p id="aInvested"></p> </div>
+        <div class="res"><h5>FINAL AMOUNT:</h5><p id="finalAmount"></p> </div>
+      </div>
+
+      <div class="box">
+          <form action="" class="wrapper">
+            <div><label for="amount">INVESTMENT AMOUNT ₹</label>
+                <input type="number" id = "amount" placeholder="10000₹" /></div>
+            <div><label for="rate">RETURN RATE %</label>
+                <input type="number" id = "rate" placeholder="10%" /></div>
+            <div><label for="time">DURATION YRS</label>
+                <input type="number" id = "time" placeholder="5yrs" /></div>
+          </form>
+       </div>
+      
+      <div class="btn"><button onclick="calculateSIP()">CALCULATE</button></div>
+
+    </div>
+
+     <div class="footer">
+        <div class="pic"><img style="height: 300px; width: 300px; border-radius: 30px;"  src="./img-src/img-1.jpg" alt=""></div>
+        <div class="pic"><img  style="height: 300px; width: 300px; border-radius: 30px;" src="./img-src/img-2.jpg" alt=""></div>
+        <div class="pic"><img  style=" height: 300px;  width: 300px; border-radius: 30px;" src="./img-src/img-3.jpg" alt=""></div>
+     </div>
+
+  </body>
+
+</html>
